@@ -1,7 +1,20 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#include <string_view>
+
+namespace project {
+
+constexpr const auto name = std::string_view{"${PROJECT_NAME}"};
+
 namespace version {
 
 constexpr const auto major = ${PROJECT_VERSION_MAJOR};
 constexpr const auto minor = ${PROJECT_VERSION_MINOR};
 constexpr const auto patch = ${PROJECT_VERSION_PATCH};
 
-} // namespace version
+} // namespace verson
+
+} // namespace project
+
+#endif // CONFIG_H

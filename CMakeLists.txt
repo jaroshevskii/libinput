@@ -1,11 +1,12 @@
 cmake_minimum_required(VERSION 3.0.0)
 
 # Set the project name and version.
-project(LibInput VERSION 1.0.0)
+project(LibInput VERSION 0.1.0)
 
 # Set specify the C++ standard.
 set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+set(CMAKE_CXX_EXTENSIONS FALSE)
 
 # Configure a header file to pass some of the CMake settings to the source code.
 configure_file(Config.h.in Config.h)
