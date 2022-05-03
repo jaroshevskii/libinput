@@ -1,0 +1,7 @@
+namespace version {
+
+constexpr const auto major = ${PROJECT_VERSION_MAJOR};
+constexpr const auto minor = ${PROJECT_VERSION_MINOR};
+constexpr const auto patch = ${PROJECT_VERSION_PATCH};
+
+} // namespace version
